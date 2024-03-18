@@ -5,7 +5,7 @@ export default function Sobre () {
             <h1>Sobre</h1>
             <p>Informações sobre o site</p>
 
-            <Link href="/">
+            <Link href={"/"}>
             Voltar
             </Link>
             
