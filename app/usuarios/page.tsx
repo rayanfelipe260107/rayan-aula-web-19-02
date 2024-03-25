@@ -12,8 +12,13 @@ export default function ListaUsuarios () {
             <p><Link href={'/usuarios/2'}>Usuário 2</Link></p>
             <p><Link href={'/usuarios/3'}>Usuário 3</Link></p> */}
 
-            {
+            {/* {
                 usuarios.map((usuario) => <p>Nome: {usuario.nome}</p>)
+            } */}
+
+            {
+                usuarios.map((usuario) => <p><Link href={`/usuarios/${usuario.id}`}>{usuario.nome}</Link>
+                </p>)
             }
 
             <Link href={"/"}>

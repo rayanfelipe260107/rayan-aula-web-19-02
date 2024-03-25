@@ -1,7 +1,7 @@
 const usuarios = [
     {
         id: 1,
-        nome: 'Sebastiao Filho',
+        nome: 'Sebastião Filho',
         altura: 1.96,
         ativo: true
     },
